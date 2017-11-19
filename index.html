@@ -18,33 +18,39 @@
             </ul>
       </nav>
     </header>
-    <section id="section">
+  <section id="section" class="overflow">
       <div class="box-tarea"><a href="#" class="link"><h3>Tareas</h3></a></div>
       <a href="#" class="star">✰</a>
       <div class="box-vida-privada"><a href="#" class="link">Vida privada</a></div>
       <div class="box-privado"><a href="#" class="link">Privado</a></div>
       <!--Container-->
-<div id="container-section">
+    <div id="container-section">
       <button id="add-list" type="button" name="button">Añadir lista...</button>
-      <form id="form-list" class="change-color-form">
-         <input id="input-title" placeholder="Añadir una lista...">
-         <button id="button-save-list">Guardar</button>
-      </form>
-      <div id="container-card">
-        <div id="add-card">
-          <a href="#">Añadir una tarjeta...</a>
+      <div>
+        <form id="form-list" class="change-style-form">
+           <input id="input-title" placeholder="Añadir una lista...">
+           <button id="button-save-list">Guardar</button>
+        </form>
+      </div>
+      <div>
+        <div id="container-card" class="change-style-card">
+          <div id="add-card">
+            <a href="#" class="padding block">Añadir una tarjeta...</a>
+          </div>
         </div>
       </div>
-      <div id="container" class="change-style-form">
-          <div id="container-new-div" class="block">
-          </div>
-          <form id="input-form">
-            <input id="input-homework" type="text">
-            <button id="button-add-homework"type="button" name="button">Añadir</button>
-          </form>
+      <div>
+        <div id="container" class="change-style-div">
+            <div id="container-new-div" class="block">
+            </div>
+            <form id="input-form">
+              <input id="input-homework" type="text">
+              <button id="button-save"type="button" name="button">Añadir</button>
+            </form>
+        </div>
       </div>
-</div>
-    </section>
+   </div>
+  </section>
     <!-- Javascript -->
     <script type="text/javascript" src="js/app.js"></script>
   </body>
